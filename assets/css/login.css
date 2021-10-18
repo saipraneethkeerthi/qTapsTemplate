@@ -1,0 +1,28 @@
+.container1 {
+    border: "0px solid";
+    background-color: #f6f5fc;
+    height: fit-content;
+    padding: 50px;
+    text-align: center;
+    border-radius: 20px;
+}
+
+.bgContainer {
+    padding: 30px;
+}
+
+.user {
+    margin-bottom: 20px;
+}
+
+.btn {
+    margin-top: "10px";
+}
+
+.account {
+    color: "black";
+}
+
+.head {
+    margin-top: 10px;
+}

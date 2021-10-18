@@ -1,0 +1,15 @@
+.container1 {
+    border: 0px solid;
+    border-radius: 20px;
+    padding: 30px;
+    background-color: #f6f5fc;
+    background-size: cover;
+    height: 68vh;
+
+}
+
+.bg-container {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}

@@ -1,0 +1,97 @@
+body {
+    /* background-color: #f6f5fc; */
+    color:black;
+}
+
+.author {
+    color: black;
+    font-family: Roboto;
+    font-size: 10px;
+}
+
+.status {
+    font-size: 10px;
+    font-family: Roboto;
+}
+
+.author-name {
+    color: black;
+}
+
+.qtype {
+    color: black;
+    font-size: 10px;
+}
+
+.qbox {
+    border-right: 2px solid;
+}
+
+.qtapcontainer {
+    border: 0px solid;
+    min-height: 250px;
+    border-radius: 20px;
+    box-shadow: 0px 5px 2px #4287f5;
+}
+
+.question-container {
+    max-height: 120px;
+    overflow-y: scroll;
+}
+
+
+.obox {
+    max-height: 230px;
+    overflow-y: scroll;
+}
+
+.i {
+    font-size: 15px;
+}
+
+.i:hover {
+    font-size: 18px;
+    transition: 0.2s;
+}
+
+.red {
+    color: #ff461c;
+}
+
+.blue {
+    color: #1cacff;
+}
+
+.but {
+    background-color: #5CF2F1;
+    border: none;
+}
+
+::-webkit-scrollbar {
+    width: 3px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #45A29E;
+    border-radius: 10px;
+}
+
+.w {
+    border: none;
+    border-bottom: 2px solid #5CF2F1;
+    background-color: transparent;
+}
+
+.w:focus {
+    outline: none;
+    caret-color: #5CF2F1;
+}
+
+.disable {
+    pointer-events: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-height: 230px;
+    overflow-y: scroll;
+}

@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sora&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/5f59ca6ad3.js" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="https://canvasjs.com/assets/script/canvasjs.min.js"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.2/css/all.css" rel="stylesheet">  
+      
+    <link rel="stylesheet" href="../assets/css/dashboard.css">
+    
+  <link rel="stylesheet" href="../assets/css/signup.css">
+  <link rel="stylesheet" href="../assets/css/maicons.css">
+
+  <link rel="stylesheet" href="../assets/css/bootstrap.css">
+
+  <link rel="stylesheet" href="../assets/vendor/animate/animate.css">
+
+  <link rel="stylesheet" href="../assets/css/theme.css">
+  
+  <link rel="stylesheet" href="../assets/css/question_option.css">
+  
+  
+    <title>DashBoard</title>
+</head>
+<body>
+    
+
+
+<div class="back-to-top"></div>
+
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-light bg-white sticky" data-offset="500">
+      <div class="container">
+        <a href="index.html" class="navbar-brand" style='font-size:3rem;'>Q-<span class="text-primary">Taps</span></a>
+
+        <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarContent" aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="navbar-collapse collapse" id="navbarContent">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="dashboard.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Trending</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">My Questions</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="profile_followers.html">Profile</a>
+            </li>
+            
+              <li class="nav-item">
+                <a class="btn btn-primary ml-lg-2" href="login.html">Logout</a>
+              </li>
+          </ul>
+        </div>
+
+      </div>
+    </nav>
+
+    <div class="container">
+        <div class="iteam" id="left-section" > 
+            <div class="user one">
+            </div>
+            <div class="rewards topbox">
+                <h4>User-Rewards</h4> <br>
+                <div class="user-star">
+                <h5>User-1</h5>
+                <span class="fa fa-star checked"></span> 
+                <span class="fa fa-star checked"></span> 
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <i class="fa fa-star-half-full checked"></i>
+                <span class="fa fa-star"></span>
+                <span class="fa fa-star"></span>
+            
+            </div>
+            </div>
+        
+            <div class="top-que lowerbox">
+                <h5>User-Top Questions</h5>
+                <div class="user-questions">
+                    <a href="">1.PlayStation vs Xbox series ?</a> 
+                    <a href="">2.Why mario is still popular ?</a> 
+                </div>
+            </div> 
+    
+        </div>
+       
+    
+    
+        <div class="iteam"id="center-section" >
+            
+            <div >
+                <div >
+                    <div class="d-flex flex-row justify-content-around col-12 qtapcontainer mt-3">
+                        <div class="qbox col-6 d-flex flex-column justify-content-between">
+                            <div class="qtop d-flex flex-row justify-content-between">
+                                <p class="qtype">#politics#pmofindia</p>
+                                <p class="votecount" id="vote">5</p>
+                            </div>
+                            <div class="question-container">
+                                <h6 class="question">Quickly manage the layout, alignment, and sizing of grid columns, navigation, components, and more with a full suite of responsive flexbox utilities. For more complex implementations, custom CSS may be necessary.
+                                    Quickly manage the layout, alignment, and sizing of grid columns, navigation, components, and more with a full suite of responsive flexbox utilities. For more complex implementations, custom CSS may be necessary.</h6>
+                            </div>
+                            <div class="qbottom d-flex flex-row justify-content-between">
+                                <p class="i red"><i class="fas fa-exclamation-triangle"></i></p>
+                                <p class="i blue"><i class="fas fa-share-alt" onclick="cpy()"></i></p>
+                            </div>
+                            <div class="author-list d-flex flex-row justify-content-between">
+                                <p class="status red" id="views" onmouseover="hover()" onmouseout="hoverend()">233300</p>
+                                <p class="author text-right">Posted by <a class="author-name" href="#">USER</a></p>
+                            </div>
+                        </div>
+                        <div class="obox d-flex flex-column justify-content-centers col-6 pt-2">
+                            <button class="btn btn-dark m-1" onclick="myFun(this)">Modi</button>
+                            <button class="btn btn-dark m-1" onclick="myFun(this)">Lallu</button>
+                            <button class="btn btn-dark m-1" onclick="myFun(this)">Rahul</button>
+                            <button class="btn btn-dark m-1" onclick="myFun(this)">Srk</button>
+                            <button class="btn btn-dark m-1" onclick="myFun(this)">Praneeth</button>
+                            <button class="btn btn-dark m-1" onclick="myFun(this)">Ramu</button>
+                            <input class="form-control bg-dark text-light mt-1" placeholder="Add Your option" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="chartContainer" class="graph d-none" style="height: 300px; width: 100%;">
+            </div>
+
+
+        </div>
+            
+        
+        <div class="iteam" id="right-section" >
+            <div class="contributor topbox"  >
+                <h5>Our Top Contributors</h5>
+                <img src=https://www.svgrepo.com/show/61986/avatar.svg class="avatar" alt="Avatar" >
+                 <p>User-1</p>
+                <img src=https://st2.depositphotos.com/1006318/5909/v/380/depositphotos_59094779-stock-illustration-profile-icon-male-avatar.jpg class="avatar" alt="Avatar">
+                <p>User-2</p>
+                <img src=https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSPxN8VV9bSfFGlLoZY3o-dLb9wa3GdTMZ4zg&usqp=CAU class="avatar" alt="Avatar">
+                <p>User-3</p>
+                
+            </div>
+            <div class="suggestions"  >
+                Our suggestions  to follow
+                <div class="mytags">
+                    <a href="#">#IPL</a>
+                      <a href="#">#Sports</a>
+                      <a href="#">#Technology</a>
+                      <a href="#">#Games</a>
+                      <a href="#">#Science</a>
+                      <a href="#">#Food</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+  </header>
+  <br/><br/><br/>
+  <footer class="page-footer bg-image" style="background-image: url(../assets/img/world_pattern.svg);">
+    <div class="container">
+      <div class="row mb-5">
+        <div class="col-lg-3 py-3">
+          <h3>Q-Taps</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero amet, repellendus eius blanditiis in iusto eligendi iure.</p>
+
+          <div class="social-media-button">
+            <a href="#"><span class="mai-logo-facebook-f"></span></a>
+            <a href="#"><span class="mai-logo-twitter"></span></a>
+            <a href="#"><span class="mai-logo-google-plus-g"></span></a>
+            <a href="#"><span class="mai-logo-instagram"></span></a>
+            <a href="#"><span class="mai-logo-youtube"></span></a>
+          </div>
+        </div>
+        <div class="col-lg-3 py-3">
+          <h5>Company</h5>
+          <ul class="footer-menu">
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Career</a></li>
+            <li><a href="#">Advertise</a></li>
+            <li><a href="#">Terms of Service</a></li>
+            <li><a href="#">Help & Support</a></li>
+          </ul>
+        </div>
+        <div class="col-lg-3 py-3">
+          <h5>Contact Us</h5>
+          <p>Abc xyz street, California, USA</p>
+          <a href="#" class="footer-link">+91 9876543210</a>
+          <a href="#" class="footer-link">CEO@qtaps.com</a>
+        </div>
+        <div class="col-lg-3 py-3">
+          <h5>Newsletter</h5>
+          <p>Get updates, news or events on your mail.</p>
+          <form action="#">
+            <input type="text" class="form-control" placeholder="Enter your email..">
+            <button type="submit" class="btn btn-success btn-block mt-2">Subscribe</button>
+          </form>
+        </div>
+      </div>
+
+      <!-- <p class="text-center" id="copyright">Copyright &copy; 2020. This template design and develop by <a href="https://macodeid.com/" target="_blank">MACode ID</a></p> -->
+    </div>
+  </footer>
+
+<script src="../assets/js/dashboard.js"></script>
+
+<script src="../assets/js/question_option.js"></script>
+
+</body>
+</html> 
